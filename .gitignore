@@ -1,0 +1,23 @@
+# Secrets — never commit your real token/IDs
+config.py
+
+# SQLite data (created automatically by init_databases() on first run)
+database/*.db
+*.db
+
+# Runtime data created at first run
+uploads/
+containers/
+backups/
+logs/
+temp/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+
